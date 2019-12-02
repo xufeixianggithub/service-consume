@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
     private static final Logger logger=LoggerFactory.getLogger(TestController.class);
-    @RequestMapping(value = "/test",method = RequestMethod.GET)
-    public String test(){
+    @RequestMapping(value = "/say",method = RequestMethod.GET)
+    public String say(){
         return "";
     }
 }
