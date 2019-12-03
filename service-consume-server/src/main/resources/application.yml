@@ -17,3 +17,16 @@ spring:
     active: local
   main:
     allow-bean-definition-overriding: true
+
+
+feign:
+  hystrix:
+    enabled: true
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 20000

@@ -29,10 +29,16 @@
         </dependency>
 
         <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-hystrix</artifactId>
+            <version>1.4.7.RELEASE</version>
+        </dependency>
+
+       <!-- <dependency>
             <groupId>com.xufx</groupId>
             <artifactId>micro-service-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+        </dependency>-->
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
