@@ -13,3 +13,7 @@ server:
 spring:
   application:
     name: service-consume
+  profiles:
+    active: local
+  main:
+    allow-bean-definition-overriding: true
